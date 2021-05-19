@@ -5,4 +5,12 @@ a{
     text-decoration: none;
     color: black;
 }
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+footer h5{
+    margin-top: 0;
+}
 

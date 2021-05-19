@@ -5,7 +5,6 @@ body {
 .contenedor {
     padding: 20px;
     width: 1366px;
-    border: 5px solid red;
 }
 /* HEADER */
 header {
@@ -67,7 +66,15 @@ header {
 }
 .zonaInferior__casas__texto_parrafo {
 }
+
+/* FOOTER */
+footer{
+    display: flex;
+    padding: 20px;
+}
+
 .social {
+    flex-grow: 0.3;
 }
 .social__titulo {
 }
@@ -78,6 +85,7 @@ header {
 .social__pinterest {
 }
 .legal {
+    flex-grow: 1;
 }
 .legal__titulo {
 }
@@ -86,4 +94,9 @@ header {
 .legal__terminos {
 }
 .copyright {
+    flex-grow: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
