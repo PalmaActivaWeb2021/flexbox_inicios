@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.contenedor {
+    padding: 20px;
+    width: 1366px;
+    border: 5px solid red;
+}
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+/* Logo SVG */
+.logo {
+}
+/* Menu horizontal a la izquierda */
+.menuPrincipal {
+    flex-grow: 0.2;
+    display: flex;
+    justify-content: space-between;
+}
+.menuPrincipal__inicio {
+}
+.menuPrincipal__servicios {
+}
+.menuPrincipal__galeria {
+}
+.menuPrincipal__contactar {
+}
+
+/* MAIN */
+.banner {
+    width: 100%;
+}
+.titulo {
+    text-align: center;
+}
+.zonaSuperior {
+}
+.zonaSuperior__flores {
+    display: flex;
+}
+.zonaSuperior__flores__foto {
+    width: 50%;
+}
+.zonaSuperior__flores__texto {
+    
+}
+.zonaSuperior__flores__texto_titulo {
+}
+.zonaSuperior__flores__texto_parrafo {
+}
+.zonaInferior {
+}
+.zonaInferior__casas {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.zonaInferior__casas_foto {
+    width: 50%;
+}
+.zonaInferior__casas_texto {
+}
+.zonaInferior__casas__texto_parrafo {
+}
+.social {
+}
+.social__titulo {
+}
+.social__instagram {
+}
+.social__twitter {
+}
+.social__pinterest {
+}
+.legal {
+}
+.legal__titulo {
+}
+.legal__cookies {
+}
+.legal__terminos {
+}
+.copyright {
+}
